@@ -1,0 +1,73 @@
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+button {
+    padding: 9px 25px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: lightyellow;
+    color:black;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    color: blue;
+    cursor: pointer;
+    background-color: rgb(244, 244, 138);
+}
+
+li, a, h3 {
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+h3 {
+    padding: 9px 25px;
+    border-radius: 20px;
+    background-color: lightcoral;
+}
+
+#navbar_items {
+    list-style: none;
+}
+
+#navbar_items li:hover {
+    transition: ease-in 0.5;
+    background-color: lightyellow;
+}
+
+#navbar_items li{
+    display: inline-block;
+    padding: 0px 20px;
+} 
+
+body {
+    background-color: lightblue;
+}
+
+div h1 {
+    background-image: url("https://www.nfcr.org/blog/national-volunteer-month-volunteering-while-in-self-isolation/");
+    display: flex;
+    font-size: 75px;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
